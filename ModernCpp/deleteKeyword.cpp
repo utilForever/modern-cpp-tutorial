@@ -1,8 +1,16 @@
+/*************************************************************************
+> File Name: deleteKeyword.cpp
+> Author: Chan-Ho Chris Ohk
+> E-mail: utilForever@gmail.com, utilForever@kaist.ac.kr
+> Created Time: 2015/4/15
+> Personal Blog: https://github.com/utilForever
+************************************************************************/
 class DeleteTestCpp98
 {
 private:
 	int i;
 
+	// Copy constructor in private access modifier
 	DeleteTestCpp98(const DeleteTestCpp98&);
 
 public:
@@ -26,6 +34,7 @@ public:
 	}
 
 	DeleteTestCpp11(int _i = 10) : i(_i) { }
+	// Deleted copy constructor in public access modifier
 	DeleteTestCpp11(const DeleteTestCpp11&) = delete;
 };
 

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22512.0
+VisualStudioVersion = 14.0.22609.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Delete", "Delete\Delete.vcxproj", "{67590C01-CA59-4A8B-8940-88AAC79C62B3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModernCpp", "ModernCpp\ModernCpp.vcxproj", "{A65C3D71-4FB1-44C0-8B18-188D6A2C4B91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{67590C01-CA59-4A8B-8940-88AAC79C62B3}.Debug|x86.ActiveCfg = Debug|Win32
-		{67590C01-CA59-4A8B-8940-88AAC79C62B3}.Debug|x86.Build.0 = Debug|Win32
-		{67590C01-CA59-4A8B-8940-88AAC79C62B3}.Release|x86.ActiveCfg = Release|Win32
-		{67590C01-CA59-4A8B-8940-88AAC79C62B3}.Release|x86.Build.0 = Release|Win32
+		{A65C3D71-4FB1-44C0-8B18-188D6A2C4B91}.Debug|x86.ActiveCfg = Debug|Win32
+		{A65C3D71-4FB1-44C0-8B18-188D6A2C4B91}.Debug|x86.Build.0 = Debug|Win32
+		{A65C3D71-4FB1-44C0-8B18-188D6A2C4B91}.Release|x86.ActiveCfg = Release|Win32
+		{A65C3D71-4FB1-44C0-8B18-188D6A2C4B91}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
