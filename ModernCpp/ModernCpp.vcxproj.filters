@@ -18,5 +18,8 @@
     <ClCompile Include="deleteKeyword.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="nullptr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
