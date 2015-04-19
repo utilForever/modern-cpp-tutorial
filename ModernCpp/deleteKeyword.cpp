@@ -11,7 +11,7 @@ private:
 	int i;
 
 	// Copy constructor in private access modifier
-	DeleteTestCpp98(const DeleteTestCpp98&);
+	DeleteTestCpp98(const DeleteTestCpp98&) { };
 
 public:
 	static void tempAssign(const DeleteTestCpp98& rhs)
@@ -30,7 +30,7 @@ private:
 public:
 	static void tempAssign(const DeleteTestCpp11& rhs)
 	{
-		DeleteTestCpp11 temp = rhs;
+		// DeleteTestCpp11 temp = rhs;
 	}
 
 	DeleteTestCpp11(int _i = 10) : i(_i) { }
