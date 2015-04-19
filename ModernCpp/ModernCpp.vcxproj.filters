@@ -21,5 +21,8 @@
     <ClCompile Include="nullptr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="scopedEnum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
