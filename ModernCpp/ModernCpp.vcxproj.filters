@@ -27,5 +27,8 @@
     <ClCompile Include="ruleOfFive.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ruleOfZero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
