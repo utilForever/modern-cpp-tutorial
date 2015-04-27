@@ -13,22 +13,31 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{83a9d163-185e-44b6-b523-c6d236555eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MovingToModernCpp">
+      <UniqueIdentifier>{90a1ab16-3f2c-4abf-89ba-b9d744d256f8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="deleteKeyword.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Classes\deleteKeyword.cpp">
+      <Filter>Source Files\Classes</Filter>
     </ClCompile>
-    <ClCompile Include="nullptr.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Classes\ruleOfFive.cpp">
+      <Filter>Source Files\Classes</Filter>
     </ClCompile>
-    <ClCompile Include="scopedEnum.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Classes\ruleOfZero.cpp">
+      <Filter>Source Files\Classes</Filter>
     </ClCompile>
-    <ClCompile Include="ruleOfFive.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="MovingToModernCpp\nullptr.cpp">
+      <Filter>Source Files\MovingToModernCpp</Filter>
     </ClCompile>
-    <ClCompile Include="ruleOfZero.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="MovingToModernCpp\scopedEnum.cpp">
+      <Filter>Source Files\MovingToModernCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\defaultKeyword.cpp">
+      <Filter>Source Files\Classes</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
