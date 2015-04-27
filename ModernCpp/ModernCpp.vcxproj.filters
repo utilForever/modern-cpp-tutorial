@@ -19,6 +19,9 @@
     <Filter Include="Source Files\MovingToModernCpp">
       <UniqueIdentifier>{90a1ab16-3f2c-4abf-89ba-b9d744d256f8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Concurrency">
+      <UniqueIdentifier>{95a05794-2844-499f-867e-ef64dcf61295}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Classes\deleteKeyword.cpp">
@@ -38,6 +41,9 @@
     </ClCompile>
     <ClCompile Include="Classes\defaultKeyword.cpp">
       <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Concurrency\promise.cpp">
+      <Filter>Source Files\Concurrency</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
