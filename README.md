@@ -14,3 +14,6 @@ deleteKeyword.cpp - Compare using "delete" keyword in C++11 and declaring specia
 ruleOfFive.cpp - Compare the rule of five in C++11 and the rule of three in C++98
 
 ruleOfZero.cpp - Describe the rule of zero in C++98
+
+## Concurrency
+promise.cpp - Describe std::promise and its instructions
