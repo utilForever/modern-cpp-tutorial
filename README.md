@@ -17,5 +17,3 @@ ruleOfZero.cpp - Describe the rule of zero in C++98
 
 ## Concurrency
 promise.cpp - Describe std::promise and its instructions
-
-future.cpp - 
