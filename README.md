@@ -20,17 +20,17 @@ promise.cpp - Describe std::promise and its instructions
 
 ## Lists
 1. From C To C++
-  - printf, scanf -> cin, cout
-  - bool type
-  - auto, decltype
-  - Range-based for
-  - NULL -> nullptr
-  - Casting 1: static_cast 
-  - Scoped enum
-  - typedef -> alias declaration
-  - Binary literal, Separator
-  - Lvalue reference
-  - Function overloading
+  - (1st) printf, scanf -> cin, cout
+  - (1st) bool type
+  - (1st) auto, decltype
+  - (2nd) Range-based for
+  - (2nd) NULL -> nullptr
+  - (2nd) Casting 1: static_cast 
+  - (3rd) Scoped enum
+  - (3rd) typedef -> alias declaration
+  - (3rd) Binary literal, Separator
+  - (4th) Lvalue reference
+  - (4th) Function overloading
   - (TBD) Casting 2: dynamic_cast, const_cast, reinterpret_cast
   - (TBD) Uniform initialization
   - (TBD) Initializer list
@@ -40,21 +40,21 @@ promise.cpp - Describe std::promise and its instructions
   - (TBD) Perfect forwarding
   - (TBD) Smart pointer: unique_ptr, shared_ptr, weak_ptr
 2. OOP: Object-Oriented Programming
-  - Concept: Class, Object, Instantiation, Member / Method
-  - Access modifier: public, protected, private
-  - Special functions 1: Constructor, Default constructor, Member initializer, Destructor
-  - Special functions 2: Copy constructor, Copy assignment operator
-  - this pointer
-  - Rule of zero, Rule of three
-  - Member variable: static / const / reference / const reference
-  - Method: static / const / method overloading / default parameter / inline
-  - Shallow copy, Deep copy
-  - Operator overloading
-  - Inheritance
-  - Up / Down casting
-  - Overriding: virtual keyword
-  - Polymorphism
-  - Pure virtual method
+  - (5th, 6th) Concept: Class, Object, Instantiation, Member / Method
+  - (6th) Access modifier: public, protected, private
+  - (7th) Special functions 1: Constructor, Default constructor, Member initializer, Destructor
+  - (7th) this pointer
+  - (8th) Special functions 2: Copy constructor, Copy assignment operator
+  - (8th) Rule of zero, Rule of three
+  - (9th) Member variable: static / const / reference / const reference
+  - (9th) Method: static / const / method overloading / default parameter / inline
+  - (10th) Shallow copy, Deep copy
+  - (10th) Operator overloading
+  - (11th) Inheritance
+  - (11th) Up / Down casting
+  - (12th) Overriding: virtual keyword
+  - (12th) Polymorphism
+  - (12th) Pure virtual method
   - (TBD) struct in C / C++
   - (TBD) Special functions 3: Move constructor, Move assignment operator
   - (TBD) Special functions 4: std::initializer_list constructor, Inheriting constructor
@@ -68,7 +68,7 @@ promise.cpp - Describe std::promise and its instructions
   - (TBD) vtable, RTTI
   - (TBD) PIMPL
 3. Exception Handling
-  - Basic: try, catch, throw
+  - (13th) Basic: try, catch, throw
   - (TBD) throw list
   - (TBD) noexcept
   - (TBD) Exception and polymorphism
@@ -76,9 +76,9 @@ promise.cpp - Describe std::promise and its instructions
   - (TBD) Stack unwinding
   - (TBD) Function-try-block
 4. Generic Programming: Template
-  - Template parameter
-  - Template method
-  - Template class
+  - (14th) Template parameter
+  - (14th) Template method
+  - (14th) Template class
   - (TBD) Template specialization
   - (TBD) Partial specialization
   - (TBD) Template inheritance vs template specialization
@@ -103,11 +103,11 @@ promise.cpp - Describe std::promise and its instructions
   - (TBD) future, promise
   - (TBD) Thread pool
 6. STL: Standard Library
-  - vector, deque, list, array, 
-  - queue, priority_queue, stack
-  - pair, tuple, map, multimap, set, multiset
-  - algorithm
-  - function
+  - (15th) vector, deque, list, array
+  - (16th) queue, priority_queue, stack
+  - (17th) pair, tuple, map, multimap, set, multiset
+  - (18th) algorithm
+  - (TBD) function
   - (TBD) forward_list
   - (TBD) unordered_map, unordered_multimap, unordered_set, unordered_multiset
   - (TBD) bitset
