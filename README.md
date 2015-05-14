@@ -38,7 +38,7 @@ promise.cpp - Describe std::promise and its instructions
   - (TBD) Rvalue reference
   - (TBD) Move semantics
   - (TBD) Perfect forwarding
-  - (TBD) Smart pointer: unique_ptr, shared_ptr
+  - (TBD) Smart pointer: unique_ptr, shared_ptr, weak_ptr
 2. OOP: Object-Oriented Programming
   - Concept: Class, Object, Instantiation, Member / Method
   - Access modifier: public, protected, private
@@ -60,6 +60,7 @@ promise.cpp - Describe std::promise and its instructions
   - (TBD) Special functions 4: std::initializer_list constructor, Inheriting constructor
   - (TBD) Rule of five
   - (TBD) =default, =delete 
+  - (TBD) explicit keyword
   - (TBD) friend 
   - (TBD) overriding keyword
   - (TBD) final keyword
