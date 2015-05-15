@@ -40,7 +40,7 @@ promise.cpp - Describe std::promise and its instructions
   - (TBD) Perfect forwarding
   - (TBD) Smart pointer: unique_ptr, shared_ptr, weak_ptr
 2. OOP: Object-Oriented Programming
-  - (5th, 6th) Concept: Class, Object, Instantiation, Member / Method
+  - (5th) Concept: Class, Object, Instantiation, Member / Method
   - (6th) Access modifier: public, protected, private
   - (7th) Special functions 1: Constructor, Default constructor, Member initializer, Destructor
   - (7th) this pointer
