@@ -22,7 +22,7 @@ promise.cpp - Describe std::promise and its instructions
 1. From C To C++
   - (1st) printf, scanf -> cin, cout
   - (1st) bool type
-  - (1st) auto, decltype
+  - (1st) auto
   - (2nd) Range-based for
   - (2nd) NULL -> nullptr
   - (2nd) Casting 1: static_cast 
@@ -31,6 +31,7 @@ promise.cpp - Describe std::promise and its instructions
   - (3rd) Binary literal, Separator
   - (4th) Lvalue reference
   - (4th) Function overloading
+  - (TBD) decltype
   - (TBD) Casting 2: dynamic_cast, const_cast, reinterpret_cast
   - (TBD) Uniform initialization
   - (TBD) Initializer list
