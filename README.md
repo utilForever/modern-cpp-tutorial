@@ -44,33 +44,35 @@ promise.cpp - Describe std::promise and its instructions
   - (TBD) Perfect forwarding
   - (TBD) Smart pointer: unique_ptr, shared_ptr, weak_ptr
 2. OOP: Object-Oriented Programming
-  - (5th) Class: Object, Member / Method
+  - (5th) Class and Object
   - (5th) Access modifier: public, protected, private
   - (5th) Information hiding, Encapsulation
-  - (6th) Special functions 1: Constructor, Default constructor, Member initializer, Destructor
+  - (6th) Constructor
+  - (6th) Destructor
   - (6th) this pointer
-  - (7th) Special functions 2: Copy constructor, Copy assignment operator
+  - (7th) Copy constructor
+  - (7th) Copy assignment operator
+  - (7th) Shallow copy, Deep copy
   - (7th) Rule of zero, Rule of three
   - (8th) Member variable: static / const / reference / const reference
   - (8th) Method: static / const / method overloading / default parameter / inline
-  - (9th) Shallow copy, Deep copy
-  - (10th) Inheritance
-  - (10th) Up / Down casting
-  - (11th) Overriding: virtual keyword 
-  - (11th) Polymorphism
-  - (11th) Pure virtual method
-  - (12th) Operator overloading
-  - (TBD) struct in C / C++
+  - (9th) Inheritance
+  - (9th) Up / Down casting
+  - (10th) Overriding: virtual keyword 
+  - (10th) Polymorphism
+  - (10th) Pure virtual method
+  - (11th) Operator overloading
+  - (12th) Multiple inheritance
+  - (12th) vtable, RTTI
   - (TBD) Special functions 3: Move constructor, Move assignment operator
   - (TBD) Special functions 4: std::initializer_list constructor, Inheriting constructor
   - (TBD) Rule of five
   - (TBD) =default, =delete 
   - (TBD) explicit keyword
   - (TBD) friend 
+  - (TBD) mutable
   - (TBD) overriding keyword
   - (TBD) final keyword
-  - (TBD) Multiple inheritance
-  - (TBD) vtable, RTTI
   - (TBD) PIMPL
 3. Exception Handling
   - (13th) Basic: try, catch, throw
