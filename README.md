@@ -1,12 +1,14 @@
 # ModernCpp
 Modern C++ Description
 
-## Moving to Modern C++
+## Examples
+
+### Moving to Modern C++
 nullptr.cpp - Compare using "nullptr" in C++11 and using NULL in C++98
 
 scopedEnum.cpp - Compare scoped enum in C++11 and unscoped enum in C++98/C++11
 
-## Classes
+### Classes
 defaultKeyword.cpp - Describe "default" keyword by comparing the drawback of the rule of zero
 
 deleteKeyword.cpp - Compare using "delete" keyword in C++11 and declaring special functions (i.e. copy constructor) with private access modifier in C++98
@@ -15,10 +17,25 @@ ruleOfFive.cpp - Compare the rule of five in C++11 and the rule of three in C++9
 
 ruleOfZero.cpp - Describe the rule of zero in C++98
 
-## Concurrency
+### Concurrency
 promise.cpp - Describe std::promise and its instructions
 
-## Lists
+## Slides
+1st Study - http://www.slideshare.net/utilforever/c-programming-1s-study
+
+2nd Study - http://www.slideshare.net/utilforever/c-programming-2nd-study
+
+3rd Study - http://www.slideshare.net/utilforever/c-programming-3rd-study
+
+4th Study - http://www.slideshare.net/utilforever/c-programming-4th-study
+
+5th Study - http://www.slideshare.net/utilforever/c-programming-5th-study
+
+6th Study - http://www.slideshare.net/utilforever/c-programming-6th-study
+
+7th Study - http://www.slideshare.net/utilforever/c-programming-7th-study
+
+## Curriculum
 1. From C To C++
   - (1st) printf, scanf -> std::cin, std::cout
   - (1st) bool type
