@@ -35,6 +35,8 @@ promise.cpp - Describe std::promise and its instructions
 
 7th Study - http://www.slideshare.net/utilforever/c-programming-7th-study
 
+8th Study - http://www.slideshare.net/utilforever/c-programming-8th-study
+
 ## Curriculum
 1. From C To C++
   - (1st) printf, scanf -> std::cin, std::cout
