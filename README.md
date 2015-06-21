@@ -18,6 +18,8 @@ ruleOfFive.cpp - Compare the rule of five in C++11 and the rule of three in C++9
 ruleOfZero.cpp - Describe the rule of zero in C++98
 
 ### Concurrency
+async.cpp - Describe std::async and its example (policies: launch::async, launch::deferred)
+
 future.cpp - Describe std::future and its example
 
 promise.cpp - Describe std::promise and its example
