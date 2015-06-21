@@ -45,5 +45,8 @@
     <ClCompile Include="Concurrency\promise.cpp">
       <Filter>Source Files\Concurrency</Filter>
     </ClCompile>
+    <ClCompile Include="future.cpp">
+      <Filter>Source Files\Concurrency</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
