@@ -18,7 +18,9 @@ ruleOfFive.cpp - Compare the rule of five in C++11 and the rule of three in C++9
 ruleOfZero.cpp - Describe the rule of zero in C++98
 
 ### Concurrency
-promise.cpp - Describe std::promise and its instructions
+future.cpp - Describe std::future and its example
+
+promise.cpp - Describe std::promise and its example
 
 ## Slides
 1st Study - http://www.slideshare.net/utilforever/c-programming-1s-study
