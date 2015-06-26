@@ -41,6 +41,8 @@ promise.cpp - Describe std::promise and its example
 
 8th Study - http://www.slideshare.net/utilforever/c-programming-8th-study
 
+9th Study - http://www.slideshare.net/utilforever/c-programming-9th-study
+
 ## Curriculum
 1. From C To C++
   - (1st) printf, scanf -> std::cin, std::cout
@@ -80,6 +82,8 @@ promise.cpp - Describe std::promise and its example
   - (8th) Member variable: static / const / reference / const reference
   - (8th) Method: static / const / method overloading / default parameter / inline
   - (9th) Inheritance
+  - (9th) Method Overriding
+  - (9th) Something about superclasses
   - (9th) Up / Down casting
   - (10th) Overriding: virtual keyword 
   - (10th) Polymorphism
