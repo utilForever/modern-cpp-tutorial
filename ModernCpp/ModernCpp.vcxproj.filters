@@ -48,7 +48,7 @@
     <ClCompile Include="Concurrency\future.cpp">
       <Filter>Source Files\Concurrency</Filter>
     </ClCompile>
-    <ClCompile Include="async.cpp">
+    <ClCompile Include="Concurrency\async.cpp">
       <Filter>Source Files\Concurrency</Filter>
     </ClCompile>
   </ItemGroup>
