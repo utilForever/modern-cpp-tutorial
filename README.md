@@ -43,6 +43,8 @@ promise.cpp - Describe std::promise and its example
 
 9th Study - http://www.slideshare.net/utilforever/c-programming-9th-study
 
+10th Study - http://www.slideshare.net/utilforever/c-programming-10th-study
+
 ## Curriculum
 1. From C To C++
   - (1st) printf, scanf -> std::cin, std::cout
@@ -85,7 +87,6 @@ promise.cpp - Describe std::promise and its example
   - (9th) Method Overriding
   - (9th) Something about superclasses
   - (9th) Up / Down casting
-  - (10th) Overriding: virtual keyword 
   - (10th) Polymorphism
   - (10th) Pure virtual method
   - (11th) Operator overloading
