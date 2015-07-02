@@ -17,6 +17,8 @@ ruleOfFive.cpp - Compare the rule of five in C++11 and the rule of three in C++9
 
 ruleOfZero.cpp - Describe the rule of zero in C++98
 
+polymorphism.cpp - Describe polymorphism with shape example
+
 operatorOverloading.cpp - Describe operator overloading with complex number example
 
 ### Concurrency
