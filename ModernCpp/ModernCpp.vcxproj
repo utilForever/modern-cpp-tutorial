@@ -17,7 +17,7 @@
     <ClCompile Include="Classes\deleteKeyword.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Classes\OperatorOverloading.cpp" />
+    <ClCompile Include="Classes\operatorOverloading.cpp" />
     <ClCompile Include="Classes\ruleOfFive.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
