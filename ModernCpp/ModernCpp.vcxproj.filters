@@ -51,5 +51,8 @@
     <ClCompile Include="Concurrency\async.cpp">
       <Filter>Source Files\Concurrency</Filter>
     </ClCompile>
+    <ClCompile Include="Classes\OperatorOverloading.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
