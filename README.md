@@ -17,6 +17,8 @@ ruleOfFive.cpp - Compare the rule of five in C++11 and the rule of three in C++9
 
 ruleOfZero.cpp - Describe the rule of zero in C++98
 
+operatorOverloading.cpp - Describe operator overloading with complex number example
+
 ### Concurrency
 async.cpp - Describe std::async and its example (policies: launch::async, launch::deferred)
 
@@ -44,6 +46,8 @@ promise.cpp - Describe std::promise and its example
 9th Study - http://www.slideshare.net/utilforever/c-programming-9th-study
 
 10th Study - http://www.slideshare.net/utilforever/c-programming-10th-study
+
+11th Study - http://www.slideshare.net/utilforever/c-programming-11th-study
 
 ## Curriculum
 1. From C To C++
@@ -97,7 +101,7 @@ promise.cpp - Describe std::promise and its example
   - (TBD) Rule of five
   - (TBD) =default, =delete 
   - (TBD) explicit keyword
-  - (TBD) friend 
+  - (TBD) friend keyword
   - (TBD) mutable
   - (TBD) overriding keyword
   - (TBD) final keyword
