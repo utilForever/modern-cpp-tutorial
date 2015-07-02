@@ -129,5 +129,5 @@ int main()
 	c7 -= c6;				// 5.0, 1.0
 	c7 += tempC(5.0, 4.0);	// 10.0, 5.0
 
-	std::cout << std::endl;
+	return 0;
 }

@@ -60,4 +60,6 @@ int main()
 
 	s = new Triangle("Triangle", 5, 5);
 	s->printArea();
+
+	return 0;
 }
