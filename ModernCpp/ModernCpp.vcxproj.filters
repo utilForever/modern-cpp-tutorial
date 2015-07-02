@@ -54,5 +54,8 @@
     <ClCompile Include="Classes\operatorOverloading.cpp">
       <Filter>Source Files\Classes</Filter>
     </ClCompile>
+    <ClCompile Include="polymorphism.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
