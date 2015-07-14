@@ -51,6 +51,10 @@ promise.cpp - Describe std::promise and its example
 
 11th Study - http://www.slideshare.net/utilforever/c-programming-11th-study
 
+12th Study - http://www.slideshare.net/utilforever/c-programming-12th-study
+
+13th Study - http://www.slideshare.net/utilforever/c-programming-13th-study
+
 ## Curriculum
 1. From C To C++
   - (1st) printf, scanf -> std::cin, std::cout
@@ -109,12 +113,11 @@ promise.cpp - Describe std::promise and its example
   - (TBD) final keyword
   - (TBD) PIMPL
 3. Exception Handling
-  - (13th) Basic: try, catch, throw
-  - (TBD) throw list
-  - (TBD) noexcept
-  - (TBD) Exception and polymorphism
+  - (13th) Exception handling in C++
+  - (13th) try ~ catch ~ throw / throw list (noexcept)
+  - (13th) Standard exception classes
+  - (13th) Stack unwinding
   - (TBD) Nested exception
-  - (TBD) Stack unwinding
   - (TBD) Function-try-block
 4. Generic Programming: Template
   - (14th) Template parameter
