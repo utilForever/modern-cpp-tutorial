@@ -1,6 +1,10 @@
 # ModernCpp
 Modern C++ Description
 
+## Article
+
+The Four Polymorphisms in C++ - https://github.com/utilForever/ModernCpp/blob/master/Articles/The%20Four%20Polymorphisms%20in%20C%2B%2B.md
+
 ## Examples
 
 ### Moving to Modern C++
@@ -32,7 +36,7 @@ future.cpp - Describe std::future and its example
 
 promise.cpp - Describe std::promise and its example
 
-## Slides
+## Slides (Korean)
 1st Study - http://www.slideshare.net/utilforever/c-programming-1s-study
 
 2nd Study - http://www.slideshare.net/utilforever/c-programming-2nd-study
