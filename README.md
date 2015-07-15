@@ -21,6 +21,10 @@ polymorphism.cpp - Describe polymorphism with shape example
 
 operatorOverloading.cpp - Describe operator overloading with complex number example
 
+RTTI-dynamic_cast.cpp - Describe dynamic_cast in RTTI and its example 
+
+RTTI-typeid.cpp - Describe typeid in RTTI and its example 
+
 ### Concurrency
 async.cpp - Describe std::async and its example (policies: launch::async, launch::deferred)
 
