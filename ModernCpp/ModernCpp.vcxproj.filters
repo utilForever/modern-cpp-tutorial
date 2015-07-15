@@ -54,7 +54,13 @@
     <ClCompile Include="Classes\operatorOverloading.cpp">
       <Filter>Source Files\Classes</Filter>
     </ClCompile>
-    <ClCompile Include="polymorphism.cpp">
+    <ClCompile Include="Classes\polymorphism.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="RTTI-dynamic_cast.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="RTTI-typeid.cpp">
       <Filter>Source Files\Classes</Filter>
     </ClCompile>
   </ItemGroup>
