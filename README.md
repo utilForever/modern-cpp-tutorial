@@ -29,6 +29,20 @@ RTTI-dynamic_cast.cpp - Describe dynamic_cast in RTTI and its example
 
 RTTI-typeid.cpp - Describe typeid in RTTI and its example 
 
+### Exception Handling
+try-catch-throw1.cpp - Describe basic try-catch-throw syntax with divide-by-zero example
+
+try-catch-thorw2.cpp - Descirbe multiple exceptions with file open example
+
+stackUnwinding1.cpp - Describe basic stack unwinding with function call example
+
+stackUnwinding2.cpp - Describe problem of stack unwinding and its solution (smart pointer, re-throw)
+
+### Template
+functionTemplate.cpp - Describe function template with max example
+
+classTemplate.cpp - Describe class template with calc example
+
 ### Concurrency
 async.cpp - Describe std::async and its example (policies: launch::async, launch::deferred)
 
@@ -62,6 +76,8 @@ promise.cpp - Describe std::promise and its example
 12th Study - http://www.slideshare.net/utilforever/c-programming-12th-study
 
 13th Study - http://www.slideshare.net/utilforever/c-programming-13th-study
+
+14th Study - http://www.slideshare.net/utilforever/c-programming-14th-study
 
 ## Curriculum
 1. From C To C++
@@ -128,9 +144,9 @@ promise.cpp - Describe std::promise and its example
   - (TBD) Nested exception
   - (TBD) Function-try-block
 4. Generic Programming: Template
-  - (14th) Template parameter
-  - (14th) Template method
-  - (14th) Template class
+  - (14th) Generic programming in C++
+  - (14th) Function template
+  - (14th) Class template
   - (TBD) Template specialization
   - (TBD) Partial specialization
   - (TBD) Template inheritance vs template specialization
