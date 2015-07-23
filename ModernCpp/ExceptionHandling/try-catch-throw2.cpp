@@ -16,15 +16,15 @@ void readFile(const std::string& fileName, std::vector<int>& dest) throw (std::i
 	int temp;
 	istr.open(fileName.c_str());
 	if (istr.fail())
-		// 파일 열기 실패에 따른 익셉션
+		// Exception: file open error
 		throw std::invalid_argument("");
-	// 값을 하나씩 읽어서 vector에 저장
+	// Read each value and store it into vector
 	while (istr >> temp)
 		dest.push_back(temp);
 	if (istr.eof())
 		istr.close();
 	else {
-		// 알 수 없는 오류에 의한 익셉션
+		// Exception: unknown error
 		istr.close();
 		throw std::runtime_error("");
 	}
