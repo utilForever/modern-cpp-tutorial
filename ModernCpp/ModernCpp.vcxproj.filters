@@ -13,14 +13,20 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Classes">
-      <UniqueIdentifier>{83a9d163-185e-44b6-b523-c6d236555eae}</UniqueIdentifier>
+    <Filter Include="Source Files\Template">
+      <UniqueIdentifier>{9f0dae1f-6846-451d-b23e-d1e356130262}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\MovingToModernCpp">
       <UniqueIdentifier>{90a1ab16-3f2c-4abf-89ba-b9d744d256f8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{83a9d163-185e-44b6-b523-c6d236555eae}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files\Concurrency">
       <UniqueIdentifier>{95a05794-2844-499f-867e-ef64dcf61295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ExceptionHandling">
+      <UniqueIdentifier>{292985d6-6869-451c-884f-a55ff6aef262}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -57,11 +63,29 @@
     <ClCompile Include="Classes\polymorphism.cpp">
       <Filter>Source Files\Classes</Filter>
     </ClCompile>
-    <ClCompile Include="RTTI-dynamic_cast.cpp">
+    <ClCompile Include="Classes\RTTI-dynamic_cast.cpp">
       <Filter>Source Files\Classes</Filter>
     </ClCompile>
-    <ClCompile Include="RTTI-typeid.cpp">
+    <ClCompile Include="Classes\RTTI-typeid.cpp">
       <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionHandling\stackUnwinding1.cpp">
+      <Filter>Source Files\ExceptionHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionHandling\stackUnwinding2.cpp">
+      <Filter>Source Files\ExceptionHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionHandling\try-catch-throw1.cpp">
+      <Filter>Source Files\ExceptionHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionHandling\try-catch-throw2.cpp">
+      <Filter>Source Files\ExceptionHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="Template\classTemplate.cpp">
+      <Filter>Source Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="Template\functionTemplate.cpp">
+      <Filter>Source Files\Template</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
