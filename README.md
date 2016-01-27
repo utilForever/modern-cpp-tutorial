@@ -1,5 +1,5 @@
 # Modern C++
-Modern C++ Description (Future update: TBA)
+Modern C++ Description (Future update)
 
 ## Article
 
