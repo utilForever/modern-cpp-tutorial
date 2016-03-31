@@ -1,5 +1,5 @@
 # Modern C++
-Modern C++ Description (Future update)
+Modern C++ Description
 
 ## Article
 
