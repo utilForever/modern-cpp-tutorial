@@ -1,5 +1,9 @@
 # Modern C++
-Modern C++ Description (TBD)
+Modern C++ Description
+
+## Notice
+
+Thank you for your attention! I'll do my best.
 
 ## Article
 
