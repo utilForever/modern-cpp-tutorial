@@ -5,6 +5,10 @@ Modern C++ Description
 
 Thank you for your attention! I'll do my best.
 
+To do :
+Doing :
+Done :
+
 ## Article
 
 The Four Polymorphisms in C++ - https://github.com/utilForever/ModernCpp/blob/master/Articles/The%20Four%20Polymorphisms%20in%20C%2B%2B.md
