@@ -5,9 +5,12 @@ Modern C++ Description
 
 Thank you for your attention! I'll do my best.
 
-(TBA)
+I'll start work on 4/15 or 4/16.
+
 To do :
+
 Doing :
+
 Done :
 
 ## Article
