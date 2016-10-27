@@ -224,3 +224,8 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+
+# Visual Studio 2015 files
+*.db
+*.bsc
+*.ilk
