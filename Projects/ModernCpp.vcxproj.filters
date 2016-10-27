@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6644be-ecee-4ce5-aef6-2de3da108fff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Declaration">
+      <UniqueIdentifier>{e40f8259-da93-4028-a587-addb937a7bcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exceptions">
+      <UniqueIdentifier>{72c501f4-360b-4e89-a7ce-c2b9ee6bbe76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Expressions">
+      <UniqueIdentifier>{8eeacafc-b78e-408b-8654-97806da70696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Keywords">
+      <UniqueIdentifier>{e3da8f48-fc7a-4d49-bb1f-518c3eb6dd4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{f330fc4f-a351-4e45-a508-1baa3f3fd1cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Miscellaneous">
+      <UniqueIdentifier>{6c7b2659-f2ea-45b4-864e-b728fdb43fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Templates">
+      <UniqueIdentifier>{18a90cbe-7cc0-4d44-95de-a0878274dc2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Thread support">
+      <UniqueIdentifier>{d23a4a16-3acb-4b43-9592-94b44ef91d18}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Sources\Classes\polymorphism.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Declaration\scoped_enum.cpp">
+      <Filter>Declaration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Exceptions\try_catch_throw1.cpp">
+      <Filter>Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Exceptions\try_catch_throw2.cpp">
+      <Filter>Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Exceptions\stack_unwinding1.cpp">
+      <Filter>Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Exceptions\stack_unwinding2.cpp">
+      <Filter>Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Expressions\operator_overloading.cpp">
+      <Filter>Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Keywords\nullptr.cpp">
+      <Filter>Keywords</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Keywords\typeid.cpp">
+      <Filter>Keywords</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Keywords\default.cpp">
+      <Filter>Keywords</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Keywords\delete.cpp">
+      <Filter>Keywords</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Keywords\dynamic_cast.cpp">
+      <Filter>Keywords</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Libraries\Thread support\future.cpp">
+      <Filter>Libraries\Thread support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Libraries\Thread support\promise.cpp">
+      <Filter>Libraries\Thread support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Libraries\Thread support\async.cpp">
+      <Filter>Libraries\Thread support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Miscellaneous\RAII-rule_of_zero.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Miscellaneous\RAII-rule_of_five.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Templates\function_template.cpp">
+      <Filter>Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Templates\class_template.cpp">
+      <Filter>Templates</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

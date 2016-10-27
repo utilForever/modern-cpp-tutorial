@@ -1,13 +1,12 @@
 /*************************************************************************
-> File Name: operatorOverloading.cpp
+> File Name: operator_overloading.cpp
 > Author: Chan-Ho Chris Ohk
-> E-mail: utilForever@gmail.com, utilForever@kaist.ac.kr
+> E-mail: utilForever@gmail.com
 > Created Time: 2015/7/2
 > Personal Blog: https://github.com/utilForever
 > References: http://en.cppreference.com/w/cpp/language/operators
 > References: http://en.cppreference.com/w/cpp/language/friend
 ************************************************************************/
-#include <iostream>
 #include <string>
 
 using tempC = std::pair<double, double>;

@@ -1,7 +1,7 @@
 /*************************************************************************
-> File Name: try-catch-throw1.cpp
+> File Name: try_catch_throw1.cpp
 > Author: Chan-Ho Chris Ohk
-> E-mail: utilForever@gmail.com, utilForever@kaist.ac.kr
+> E-mail: utilForever@gmail.com
 > Created Time: 2015/7/17
 > Personal Blog: https://github.com/utilForever
 ************************************************************************/

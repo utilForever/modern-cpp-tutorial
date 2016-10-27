@@ -1,7 +1,7 @@
 /*************************************************************************
-> File Name: functionTemplate.cpp
+> File Name: function_template.cpp
 > Author: Chan-Ho Chris Ohk
-> E-mail: utilForever@gmail.com, utilForever@kaist.ac.kr
+> E-mail: utilForever@gmail.com
 > Created Time: 2015/7/23
 > Personal Blog: https://github.com/utilForever
 ************************************************************************/

@@ -1,7 +1,7 @@
 /*************************************************************************
-> File Name: stackUnwinding1.cpp
+> File Name: stack_unwinding1.cpp
 > Author: Chan-Ho Chris Ohk
-> E-mail: utilForever@gmail.com, utilForever@kaist.ac.kr
+> E-mail: utilForever@gmail.com
 > Created Time: 2015/7/17
 > Personal Blog: https://github.com/utilForever
 ************************************************************************/

@@ -1,7 +1,7 @@
 /*************************************************************************
-> File Name: scopedEnum.cpp
+> File Name: scoped_enum.cpp
 > Author: Chan-Ho Chris Ohk
-> E-mail: utilForever@gmail.com, utilForever@kaist.ac.kr
+> E-mail: utilForever@gmail.com
 > Created Time: 2015/4/19
 > Personal Blog: https://github.com/utilForever
 ************************************************************************/

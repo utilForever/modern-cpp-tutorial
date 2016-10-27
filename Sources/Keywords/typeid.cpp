@@ -1,7 +1,7 @@
 /*************************************************************************
-> File Name: RTTI-typeid.cpp
+> File Name: typeid.cpp
 > Author: Chan-Ho Chris Ohk
-> E-mail: utilForever@gmail.com, utilForever@kaist.ac.kr
+> E-mail: utilForever@gmail.com
 > Created Time: 2015/7/15
 > Personal Blog: https://github.com/utilForever
 ************************************************************************/

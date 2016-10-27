@@ -1,7 +1,7 @@
 /*************************************************************************
-> File Name: ruleOfFive.cpp
+> File Name: RAII-rule_of_five.cpp
 > Author: Chan-Ho Chris Ohk
-> E-mail: utilForever@gmail.com, utilForever@kaist.ac.kr
+> E-mail: utilForever@gmail.com
 > Created Time: 2015/4/26
 > Personal Blog: https://github.com/utilForever
 > References: http://www.cppsamples.com/common-tasks/rule-of-five.html
