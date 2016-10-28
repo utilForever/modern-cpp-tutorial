@@ -87,5 +87,8 @@
     <ClCompile Include="..\Sources\Templates\class_template.cpp">
       <Filter>Templates</Filter>
     </ClCompile>
+    <ClCompile Include="..\Sources\Keywords\static_cast.cpp">
+      <Filter>Keywords</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
