@@ -229,3 +229,4 @@ FakesAssemblies/
 *.db
 *.bsc
 *.ilk
+*.opendb
