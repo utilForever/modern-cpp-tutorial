@@ -102,9 +102,9 @@ int main()
 		d1->Name();
 	}
 
+	Base* b2 = new Derived;
 	// b2 has type Derived*, Derived base of Base.
 	// So dynamic_cast successes, and returns Derived*.
-	Base* b2 = new Derived;
 	if (Derived* d2 = dynamic_cast<Derived*>(b2))
 	{
 		std::cout << "Downcast from b2 to d2 successful\n";
