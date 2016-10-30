@@ -93,5 +93,8 @@
     <ClCompile Include="..\Sources\Keywords\const_cast.cpp">
       <Filter>Keywords</Filter>
     </ClCompile>
+    <ClCompile Include="..\Sources\Keywords\reinterpret_cast.cpp">
+      <Filter>Keywords</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
