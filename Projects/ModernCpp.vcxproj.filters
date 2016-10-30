@@ -96,5 +96,8 @@
     <ClCompile Include="..\Sources\Keywords\reinterpret_cast.cpp">
       <Filter>Keywords</Filter>
     </ClCompile>
+    <ClCompile Include="..\Sources\Keywords\alignas.cpp">
+      <Filter>Keywords</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
