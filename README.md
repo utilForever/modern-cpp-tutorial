@@ -1,4 +1,4 @@
-<img src="https://github.com/utilForever/ModernCpp/blob/master/Logo.png" align="right" width="200" height="200" />
+<img src="https://github.com/utilForever/ModernCpp/blob/master/Logo.png" align="right" width="144" height="144" />
 
 # Modern C++
 
