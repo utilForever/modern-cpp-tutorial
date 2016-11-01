@@ -1,3 +1,5 @@
+<img src="https://github.com/utilForever/ModernCpp/blob/master/Logo.png" align="right" width="200" height="200" />
+
 # Modern C++
 
 Modern C++ Description
