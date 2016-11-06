@@ -2,62 +2,24 @@
 
 # Modern C++
 
-Modern C++ Description
+A curated list of Modern C++ articles, examples, tutorials, frameworks, libraries, resources, and shiny things.
 
 ## Notice
 
 Thanks for your stars! I'll do my best.
 
-## Article
+## Articles
+
+### English → Korean
 
 The Four Polymorphisms in C++ - https://github.com/utilForever/ModernCpp/blob/master/Articles/The%20Four%20Polymorphisms%20in%20C%2B%2B.md
 
 ## Examples
 
-### Moving to Modern C++
-nullptr.cpp - Compare using "nullptr" in C++11 and using NULL in C++98
+## Tutorials
 
-scopedEnum.cpp - Compare scoped enum in C++11 and unscoped enum in C++98/C++11
+### C++ Programming Basic Course Slides (presented by Korean)
 
-### Classes
-defaultKeyword.cpp - Describe "default" keyword by comparing the drawback of the rule of zero
-
-deleteKeyword.cpp - Compare using "delete" keyword in C++11 and declaring special functions (i.e. copy constructor) with private access modifier in C++98
-
-ruleOfFive.cpp - Compare the rule of five in C++11 and the rule of three in C++98
-
-ruleOfZero.cpp - Describe the rule of zero in C++98
-
-polymorphism.cpp - Describe polymorphism with shape example
-
-operatorOverloading.cpp - Describe operator overloading with complex number example
-
-RTTI-dynamic_cast.cpp - Describe dynamic_cast in RTTI and its example 
-
-RTTI-typeid.cpp - Describe typeid in RTTI and its example 
-
-### Exception Handling
-try-catch-throw1.cpp - Describe basic try-catch-throw syntax with divide-by-zero example
-
-try-catch-thorw2.cpp - Descirbe multiple exceptions with file open example
-
-stackUnwinding1.cpp - Describe basic stack unwinding with function call example
-
-stackUnwinding2.cpp - Describe problem of stack unwinding and its solution (smart pointer, re-throw)
-
-### Template
-functionTemplate.cpp - Describe function template with max example
-
-classTemplate.cpp - Describe class template with calc example
-
-### Concurrency
-async.cpp - Describe std::async and its example (policies: launch::async, launch::deferred)
-
-future.cpp - Describe std::future and its example
-
-promise.cpp - Describe std::promise and its example
-
-## Slides (Korean)
 1st Study - http://www.slideshare.net/utilforever/c-programming-1s-study
 
 2nd Study - http://www.slideshare.net/utilforever/c-programming-2nd-study
@@ -86,7 +48,8 @@ promise.cpp - Describe std::promise and its example
 
 14th Study - http://www.slideshare.net/utilforever/c-programming-14th-study
 
-## Curriculum
+#### Curriculum
+
 1. From C To C++
   - (1st) printf, scanf -> std::cin, std::cout
   - (1st) bool type
