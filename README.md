@@ -2,7 +2,7 @@
 
 # Modern C++
 
-A curated list of Modern C++ articles, examples, tutorials, frameworks, libraries, resources, and shiny things.
+A curated list of Modern C++ articles, examples, tutorials, frameworks, libraries, and shiny things.
 
 ## Notice
 
@@ -12,7 +12,7 @@ Thanks for your stars! I'll do my best.
 
 ### English → Korean
 
-The Four Polymorphisms in C++ - https://github.com/utilForever/ModernCpp/blob/master/Articles/The%20Four%20Polymorphisms%20in%20C%2B%2B.md
+[The Four Polymorphisms in C++](https://github.com/utilForever/ModernCpp/blob/master/Articles/The%20Four%20Polymorphisms%20in%20C%2B%2B.md)
 
 ## Examples
 
@@ -20,35 +20,86 @@ The Four Polymorphisms in C++ - https://github.com/utilForever/ModernCpp/blob/ma
 
 ### C++ Programming Basic Course Slides (presented by Korean)
 
-1st Study - http://www.slideshare.net/utilforever/c-programming-1s-study
+[1st Study](http://www.slideshare.net/utilforever/c-programming-1s-study): From C to C++ (1/4)
+  - printf, scanf → cin, cout
+  - bool type
+  - auto keyword
 
-2nd Study - http://www.slideshare.net/utilforever/c-programming-2nd-study
+[2nd Study](http://www.slideshare.net/utilforever/c-programming-2nd-study): From C to C++ (2/4)
+  - Range-based for
+  - malloc, free → new, delete
+  - NULL → nullptr
+  - static_cast
 
-3rd Study - http://www.slideshare.net/utilforever/c-programming-3rd-study
+[3rd Study](http://www.slideshare.net/utilforever/c-programming-3rd-study): From C to C++ (3/4)
+  - Scoped enum
+  - Binary literal, separator
+  - std::string
 
-4th Study - http://www.slideshare.net/utilforever/c-programming-4th-study
+[4th Study](http://www.slideshare.net/utilforever/c-programming-4th-study): From C to C++ (4/4)
+  - Reference
+  - Function overloading
+  - Namespace
 
-5th Study - http://www.slideshare.net/utilforever/c-programming-5th-study
+[5th Study](http://www.slideshare.net/utilforever/c-programming-5th-study): Object-Oriented Programming (1/8)
+  - Class and object
+  - Access modifier: public, protected, private
+  - Information hiding, Encapsulation
 
-6th Study - http://www.slideshare.net/utilforever/c-programming-6th-study
+[6th Study](http://www.slideshare.net/utilforever/c-programming-6th-study): Object-Oriented Programming (2/8)
+  - Constructor
+  - Destructor
+  - this pointer
 
-7th Study - http://www.slideshare.net/utilforever/c-programming-7th-study
+[7th Study](http://www.slideshare.net/utilforever/c-programming-7th-study): Object-Oriented Programming (3/8)
+  - Copy constructor
+  - Copy assignment operator
+  - Shallow copy / deep copy
+  - Rule of zero / rule of three
 
-8th Study - http://www.slideshare.net/utilforever/c-programming-8th-study
+[8th Study](http://www.slideshare.net/utilforever/c-programming-8th-study): Object-Oriented Programming (4/8)
+  - Member variable
+    - static
+    - const
+    - reference
+    - const reference
+  - Member function
+    - static
+    - const
+    - default parameter
 
-9th Study - http://www.slideshare.net/utilforever/c-programming-9th-study
+[9th Study](http://www.slideshare.net/utilforever/c-programming-9th-study): Object-Oriented Programming (5/8)
+  - Inheritance
+  - Method overriding
+  - Something about superclasses
+  - Up / down casting
 
-10th Study - http://www.slideshare.net/utilforever/c-programming-10th-study
+[10th Study](http://www.slideshare.net/utilforever/c-programming-10th-study): Object-Oriented Programming (6/8)
+  - Polymorphism
+  - Pure virtual method
 
-11th Study - http://www.slideshare.net/utilforever/c-programming-11th-study
+[11th Study](http://www.slideshare.net/utilforever/c-programming-11th-study): Object-Oriented Programming (7/8)
+  - Operator Overloading
 
-12th Study - http://www.slideshare.net/utilforever/c-programming-12th-study
+[12th Study](http://www.slideshare.net/utilforever/c-programming-12th-study): Object-Oriented Programming (8/8)
+  - Multiple inheritance
+  - vtable (virtual function table)
+  - RTTI(Run-Time Type Information)
 
-13th Study - http://www.slideshare.net/utilforever/c-programming-13th-study
+[13th Study](http://www.slideshare.net/utilforever/c-programming-13th-study): Exception Handling
+  - Exception handling in C++
+  - try ~ catch ~ throw
+  - Standard exception classes
+  - Stack unwinding
 
-14th Study - http://www.slideshare.net/utilforever/c-programming-14th-study
+[14th Study](http://www.slideshare.net/utilforever/c-programming-14th-study): Generic Programming
+  - Generic programming in C++
+  - Function template
+  - Class template
 
-#### Curriculum
+[15th Study(TBA)](...)
+
+### Basic Curriculum
 
 1. From C To C++
   - (1st) printf, scanf -> std::cin, std::cout
@@ -141,10 +192,10 @@ The Four Polymorphisms in C++ - https://github.com/utilForever/ModernCpp/blob/ma
   - (TBD) future, promise
   - (TBD) Thread pool
 6. STL: Standard Library
-  - (15th) vector, deque, list, array
-  - (16th) queue, priority_queue, stack
-  - (17th) pair, tuple, map, multimap, set, multiset
-  - (18th) algorithm
+  - (TBD) vector, deque, list, array
+  - (TBD) queue, priority_queue, stack
+  - (TBD) pair, tuple, map, multimap, set, multiset
+  - (TBD) algorithm
   - (TBD) function
   - (TBD) forward_list
   - (TBD) unordered_map, unordered_multimap, unordered_set, unordered_multiset
