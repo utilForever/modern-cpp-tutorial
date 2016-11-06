@@ -20,44 +20,44 @@ Thanks for your stars! I'll do my best.
 
 ### C++ Programming Basic Course Slides (presented by Korean)
 
-[1st Study](http://www.slideshare.net/utilforever/c-programming-1s-study): From C to C++ (1/4)
+[1st Study: From C to C++ (1/4)](http://www.slideshare.net/utilforever/c-programming-1s-study)
   - printf, scanf → cin, cout
   - bool type
   - auto keyword
 
-[2nd Study](http://www.slideshare.net/utilforever/c-programming-2nd-study): From C to C++ (2/4)
+[2nd Study: From C to C++ (2/4)](http://www.slideshare.net/utilforever/c-programming-2nd-study)
   - Range-based for
   - malloc, free → new, delete
   - NULL → nullptr
   - static_cast
 
-[3rd Study](http://www.slideshare.net/utilforever/c-programming-3rd-study): From C to C++ (3/4)
+[3rd Study: From C to C++ (3/4)](http://www.slideshare.net/utilforever/c-programming-3rd-study)
   - Scoped enum
   - Binary literal, separator
   - std::string
 
-[4th Study](http://www.slideshare.net/utilforever/c-programming-4th-study): From C to C++ (4/4)
+[4th Study: From C to C++ (4/4)](http://www.slideshare.net/utilforever/c-programming-4th-study)
   - Reference
   - Function overloading
   - Namespace
 
-[5th Study](http://www.slideshare.net/utilforever/c-programming-5th-study): Object-Oriented Programming (1/8)
+[5th Study: Object-Oriented Programming (1/8)](http://www.slideshare.net/utilforever/c-programming-5th-study)
   - Class and object
   - Access modifier: public, protected, private
   - Information hiding, Encapsulation
 
-[6th Study](http://www.slideshare.net/utilforever/c-programming-6th-study): Object-Oriented Programming (2/8)
+[6th Study: Object-Oriented Programming (2/8)](http://www.slideshare.net/utilforever/c-programming-6th-study)
   - Constructor
   - Destructor
   - this pointer
 
-[7th Study](http://www.slideshare.net/utilforever/c-programming-7th-study): Object-Oriented Programming (3/8)
+[7th Study: Object-Oriented Programming (3/8)](http://www.slideshare.net/utilforever/c-programming-7th-study)
   - Copy constructor
   - Copy assignment operator
   - Shallow copy / deep copy
   - Rule of zero / rule of three
 
-[8th Study](http://www.slideshare.net/utilforever/c-programming-8th-study): Object-Oriented Programming (4/8)
+[8th Study: Object-Oriented Programming (4/8)](http://www.slideshare.net/utilforever/c-programming-8th-study)
   - Member variable
     - static
     - const
@@ -68,36 +68,36 @@ Thanks for your stars! I'll do my best.
     - const
     - default parameter
 
-[9th Study](http://www.slideshare.net/utilforever/c-programming-9th-study): Object-Oriented Programming (5/8)
+[9th Study: Object-Oriented Programming (5/8)](http://www.slideshare.net/utilforever/c-programming-9th-study)
   - Inheritance
   - Method overriding
   - Something about superclasses
   - Up / down casting
 
-[10th Study](http://www.slideshare.net/utilforever/c-programming-10th-study): Object-Oriented Programming (6/8)
+[10th Study: Object-Oriented Programming (6/8)](http://www.slideshare.net/utilforever/c-programming-10th-study)
   - Polymorphism
   - Pure virtual method
 
-[11th Study](http://www.slideshare.net/utilforever/c-programming-11th-study): Object-Oriented Programming (7/8)
+[11th Study: Object-Oriented Programming (7/8)](http://www.slideshare.net/utilforever/c-programming-11th-study)
   - Operator Overloading
 
-[12th Study](http://www.slideshare.net/utilforever/c-programming-12th-study): Object-Oriented Programming (8/8)
+[12th Study: Object-Oriented Programming (8/8)](http://www.slideshare.net/utilforever/c-programming-12th-study)
   - Multiple inheritance
   - vtable (virtual function table)
   - RTTI(Run-Time Type Information)
 
-[13th Study](http://www.slideshare.net/utilforever/c-programming-13th-study): Exception Handling
+[13th Study: Exception Handling](http://www.slideshare.net/utilforever/c-programming-13th-study)
   - Exception handling in C++
   - try ~ catch ~ throw
   - Standard exception classes
   - Stack unwinding
 
-[14th Study](http://www.slideshare.net/utilforever/c-programming-14th-study): Generic Programming
+[14th Study: Generic Programming](http://www.slideshare.net/utilforever/c-programming-14th-study)
   - Generic programming in C++
   - Function template
   - Class template
 
-[15th Study(TBA)](...)
+[15th Study: TBA](...)
 
 ### Basic Curriculum
 
