@@ -6,7 +6,7 @@ A curated list of Modern C++ articles, examples, tutorials, frameworks, librarie
 
 ## Notice
 
-Thanks for your stars! I'll do my best.
+2017/03/01 - I'll add examples for C++17 features.
 
 ## Articles
 
