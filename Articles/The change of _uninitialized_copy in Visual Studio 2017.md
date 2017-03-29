@@ -7,7 +7,7 @@
 그래서 나는 먼저 코드를 살펴보기로 했다. 코드는 다음과 같았다.
 
 ## Numeric_Range.h
-```
+```C++
 // Numeric_Range.h for Ex2_07
 // 범위를 위한 클래스 템플릿과 범위 지정을 위한 반복자 클래스 템플릿을 정의
 #ifndef NUMERIC_RANGE_H
@@ -116,7 +116,7 @@ public:
 ```
 
 ## Ex2_07.cpp
-```
+```C++
 // Ex2_07.cpp
 // Numeric_Range 템플릿 사용해보기
 #include <algorithm>                         // copy()
