@@ -21,7 +21,7 @@
 
 template <typename T> class Numeric_Iterator;    // 템플릿 타입 정의
 
-												 // 숫자 범위를 정의
+// 숫자 범위를 정의
 template<typename T>
 class Numeric_Range
 {
