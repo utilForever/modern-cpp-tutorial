@@ -296,16 +296,16 @@ Visual Studio 2017에서 이 인자들을 ```const auto``` 타입으로 바꿔�
 반복자를 역참조하는 연산자 ```operator*()```를 아래처럼 수정하면 된다.
 
 ```C++
-	// 반복자를 역참조한다
-	const T& operator*() const
+// 반복자를 역참조한다
+const T& operator*() const
+{
+	// 값이 마지막에서 하나 더 뒤라면 이 값은 끝 반복자다
+	if (value == static_cast<T>(range.start + range.count*range.step))
 	{
-		// 값이 마지막에서 하나 더 뒤라면 이 값은 끝 반복자다
-		if (value == static_cast<T>(range.start + range.count*range.step))
-		{
-			throw std::logic_error("Cannot dereference an end iterator.");
-		}
-		return value;
+		throw std::logic_error("Cannot dereference an end iterator.");
 	}
+	return value;
+}
 ```
 
 수정한 후, 컴파일하면 정상적으로 컴파일되고 출력 결과가 나온다.
