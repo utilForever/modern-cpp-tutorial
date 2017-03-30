@@ -154,3 +154,179 @@ int main()
 그래서 Visual Studio 2017에서 위 코드를 컴파일해 보았다.
 그랬더니, 다음과 같은 컴파일 오류가 발생했다.
 
+```C++
+1>------ Build started: Project: Test, Configuration: Debug Win32 ------
+1>Ex2_07.cpp
+1>c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\xmemory(126): error C2678: binary '*': no operator found which takes a left-hand operand of type 'const Numeric_Iterator<T>' (or there is no acceptable conversion)
+1>        with
+1>        [
+1>            T=long
+1>        ]
+1>c:\users\utilforever\documents\visual studio 2017\projects\test\test\numeric_range.h(62): note: could be 'long &Numeric_Iterator<T>::operator *(void)'
+1>        with
+1>        [
+1>            T=long
+1>        ]
+1>c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\xmemory(126): note: while trying to match the argument list '(const Numeric_Iterator<T>)'
+1>        with
+1>        [
+1>            T=long
+1>        ]
+1>c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\vector(1859): note: see reference to function template instantiation '_FwdIt *std::_Uninitialized_copy<_Iter,long*,std::allocator<_Ty>>(_InIt,_InIt,_FwdIt,std::_Wrap_alloc<std::allocator<_Ty>> &)' being compiled
+1>        with
+1>        [
+1>            _FwdIt=long *,
+1>            _Iter=Numeric_Iterator<long>,
+1>            _Ty=long,
+1>            _InIt=Numeric_Iterator<long>
+1>        ]
+1>c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\vector(779): note: see reference to function template instantiation 'long *std::vector<long,std::allocator<_Ty>>::_Ucopy<_Iter>(_Iter,_Iter,long *)' being compiled
+1>        with
+1>        [
+1>            _Ty=long,
+1>            _Iter=Numeric_Iterator<long>
+1>        ]
+1>c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\vector(779): note: see reference to function template instantiation 'long *std::vector<long,std::allocator<_Ty>>::_Ucopy<_Iter>(_Iter,_Iter,long *)' being compiled
+1>        with
+1>        [
+1>            _Ty=long,
+1>            _Iter=Numeric_Iterator<long>
+1>        ]
+1>c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\vector(794): note: see reference to function template instantiation 'void std::vector<long,std::allocator<_Ty>>::_Range_construct_or_tidy<_Iter>(_Iter,_Iter,std::forward_iterator_tag)' being compiled
+1>        with
+1>        [
+1>            _Ty=long,
+1>            _Iter=Numeric_Iterator<long>
+1>        ]
+1>c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\vector(794): note: see reference to function template instantiation 'void std::vector<long,std::allocator<_Ty>>::_Range_construct_or_tidy<_Iter>(_Iter,_Iter,std::forward_iterator_tag)' being compiled
+1>        with
+1>        [
+1>            _Ty=long,
+1>            _Iter=Numeric_Iterator<long>
+1>        ]
+1>c:\users\utilforever\documents\visual studio 2017\projects\test\test\ex2_07.cpp(19): note: see reference to function template instantiation 'std::vector<long,std::allocator<_Ty>>::vector<Numeric_Iterator<T>,void>(_Iter,_Iter,const std::allocator<_Ty> &)' being compiled
+1>        with
+1>        [
+1>            _Ty=long,
+1>            T=long,
+1>            _Iter=Numeric_Iterator<long>
+1>        ]
+1>c:\users\utilforever\documents\visual studio 2017\projects\test\test\ex2_07.cpp(19): note: see reference to function template instantiation 'std::vector<long,std::allocator<_Ty>>::vector<Numeric_Iterator<T>,void>(_Iter,_Iter,const std::allocator<_Ty> &)' being compiled
+1>        with
+1>        [
+1>            _Ty=long,
+1>            T=long,
+1>            _Iter=Numeric_Iterator<long>
+1>        ]
+1>c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\xmemory(126): error C2100: illegal indirection
+1>c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\xmemory(126): error C2062: type 'unknown-type' unexpected
+1>Done building project "Test.vcxproj" -- FAILED.
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+```
+
+무슨 문제가 있는 것일까?
+
+## 원인 분석
+
+오류가 발생하는 원인을 분석하기 위해, 오류 메시지를 토대로 하나씩 추적했다. 중간까지는 별다른 문제가 없어보였다. 그러다가 다음 메시지를 보게되었다.
+
+```C++
+1>c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\xmemory(126): note: while trying to match the argument list '(const Numeric_Iterator<T>)'
+1>        with
+1>        [
+1>            T=long
+1>        ]
+1>c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\vector(1859): note: see reference to function template instantiation '_FwdIt *std::_Uninitialized_copy<_Iter,long*,std::allocator<_Ty>>(_InIt,_InIt,_FwdIt,std::_Wrap_alloc<std::allocator<_Ty>> &)' being compiled
+1>        with
+1>        [
+1>            _FwdIt=long *,
+1>            _Iter=Numeric_Iterator<long>,
+1>            _Ty=long,
+1>            _InIt=Numeric_Iterator<long>
+1>        ]
+```
+
+그래서 Visual Studio 2017의 ```_Uninitialized_copy``` 함수가 어떻게 구현되어 있는지 살펴봤다.
+
+```C++
+template<class _InIt,
+	class _FwdIt,
+	class _Alloc> inline
+	_FwdIt _Uninitialized_copy(_InIt _First, _InIt _Last, _FwdIt _Dest,
+		_Wrap_alloc<_Alloc>& _Al)
+	{	// copy [_First, _Last) to raw _Dest, using _Al
+		// note: only called internally from elsewhere in the STL, debug checks
+		// and deprecation warnings omitted
+	const auto _UFirst = _Unchecked(_First);
+	const auto _ULast = _Unchecked(_Last);
+	const auto _UDest = _Unchecked(_Dest);
+	return (_Rechecked(_Dest,
+		_Uninitialized_copy_al_unchecked(_UFirst, _ULast, _UDest, _Al,
+			_Ptr_copy_cat(_UFirst, _UDest),
+			_Uses_default_construct_t<_Alloc, decltype(_Unfancy(_UDest)), decltype(*_UFirst)>())));
+	}
+```
+
+그렇다면 Visual Studio 2015에서는 어떻게 구현되어 있을까?
+
+```C++
+template<class _InIt,
+	class _FwdIt,
+	class _Alloc> inline
+	_FwdIt _Uninitialized_copy(_InIt _First, _InIt _Last, _FwdIt _Dest,
+		_Wrap_alloc<_Alloc>& _Al)
+	{	// copy [_First, _Last) to raw _Dest, using _Al
+		// note: only called internally from elsewhere in the STL, debug checks
+		// and deprecation warnings omitted
+	return (_Rechecked(_Dest,
+		_Uninitialized_copy_al_unchecked(_Unchecked(_First), _Unchecked(_Last),
+			_Unchecked(_Dest), _Al)));
+	}
+```
+
+내부 구현이 바뀌었다는 사실을 알 수 있었다.
+기존에는 인자 ```_First```, ```_Last```, ```_Dest```를 그대로 사용했지만,
+Visual Studio 2017에서 이 인자들을 ```const auto``` 타입으로 바꿔서 사용하도록 변경되었다.
+이로 인해 컴파일 오류가 발생하게 된 것이다.
+
+### 해결 방법
+
+그렇다면 어떻게 이 오류를 해결할 수 있을까?
+해결 방법은 간단하다.
+반복자를 역참조하는 연산자 ```operator*()```를 아래처럼 수정하면 된다.
+
+```C++
+	// 반복자를 역참조한다
+	const T& operator*() const
+	{
+		// 값이 마지막에서 하나 더 뒤라면 이 값은 끝 반복자다
+		if (value == static_cast<T>(range.start + range.count*range.step))
+		{
+			throw std::logic_error("Cannot dereference an end iterator.");
+		}
+		return value;
+	}
+```
+
+수정한 후, 컴파일하면 정상적으로 컴파일되고 출력 결과가 나온다.
+
+```
+1.5  2  2.5  3  3.5
+Sum = 12.5
+
+Values in vector are:
+15  19  23  27  31  35  39  43  47  51
+
+The values in the numbers range are:
+15 19 23 27 31 35 39 43 47 51
+Press any key to continue . . .
+```
+
+Visual Studio 2015, 2017 및 g++-6에서 정상 실행을 확인했다.
+
+### 결론
+
+Visual Studio의 버전을 업그레이드하면서 STL의 내부 구현에 변화가 있을 수 있다.
+따라서 기존 Visual Studio에서 잘 실행되던 코드가 새로운 Visual Studio에서 실행되지 않는다면,
+어떤 부분에서 오류가 발생하는지 확인하고 오류 메시지를 토대로 추적한 후,
+C++ 표준의 변화가 원인이 아니라면  STL 내부 구현에 변화가 없는지 살펴봐야 할 것이다.
